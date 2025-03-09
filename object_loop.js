@@ -14,3 +14,7 @@ console.log("\n")
 for (let [key,value] of Object.entries(person)) {
     console.log(`Key : ${key} --- Value : ${value}`)
 }
+
+
+delete person.salary
+console.log("After delete :",person);
